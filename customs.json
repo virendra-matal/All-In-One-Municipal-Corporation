@@ -1,0 +1,13 @@
+{
+    "elements": {
+        "marquee": {}
+    },
+    "attributes": {
+        "minlength": {
+            "context": "input"
+        },
+        "requied": {
+            "context": "input"
+        }
+    }
+}

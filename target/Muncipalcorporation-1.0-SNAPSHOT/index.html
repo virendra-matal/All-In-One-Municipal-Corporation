@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Start Page</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+
+<body>
+    <!--<form method="post" action="../HomeServlet">-->
+    <!--<h1>Hello World!</h1>-->
+    <!--</form>-->
+    <script>
+        $(document).ready(
+                callServlet()
+                );
+        function callServlet() {
+            
+            window.location.href="Html/login.jsp"
+//            $.post("HomeServlet",function(data){
+//              alert("hii");  
+//            });
+        }
+    </script>
+</body>
+</html>

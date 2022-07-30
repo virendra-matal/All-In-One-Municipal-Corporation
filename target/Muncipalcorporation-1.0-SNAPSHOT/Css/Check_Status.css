@@ -1,0 +1,52 @@
+.marquee{
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    padding: 15px;
+    font-size: 22px;
+    position: relative;
+    top: 50px;
+    color: white;
+    font-weight: bold;
+}
+.Search_box{
+    width: 70%;
+    height: 300px;
+    /*background: yellow;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid blue;
+    box-shadow: 25px 15px 4px  8px ;
+    opacity: 0.8;
+    
+}
+.space{
+    width: 320px;
+}
+.empty_row{
+    width: 100%;
+    height: 60px;
+}
+.button{
+    width: 250%;
+    padding: 15px;
+    padding-bottom: 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.label{
+    width: 180px;
+    height: 30px;
+}
+input{
+     width: 250px; 
+    height: 26px;
+    border: 1px solid black;
+    margin: 0 0 0 3px;
+    /*opacity: 0.6;*/
+}

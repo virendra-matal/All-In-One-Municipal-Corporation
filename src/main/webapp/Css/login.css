@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../images/image9.JPG');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    
+}
+.form-box{
+    width: 360px;
+    height: 550px;
+    position: relative;
+    margin: 6% auto;
+    background: white;
+    padding: 5px;
+    overflow: hidden;
+    box-shadow: 1px 2px 5px 5px orangered;
+    opacity: 0.6;
+}
+.button-box{
+    width: 250px;
+    margin: 30px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px orange;
+    border-radius: 30px;
+}
+.toggle-btn{
+    padding: 10px 40px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 120px;
+    height: 100%;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border-radius: 30px;
+    transition: 0.5s;
+    
+}
+.form{
+    top:90px;
+    position: absolute;
+    width: 300px;
+    transition: 0.5s;
+    
+}
+.fa{
+    position: relative;
+    left: 5px;
+    bottom: 2px;
+    top: 5px;
+}
+.input-field{
+    width: 100%;
+    padding :10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    
+}
+.submit-btn{
+    top: 250px;
+    width: 85%;
+    padding:10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 30px 30px;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+        
+}
+/*.check-box{
+    margin: 30px 10px 30px 0;
+}*/
+/*#remember{
+    color: #777;
+    font-size: 14px;
+    bottom: 68px;
+    position: absolute;
+}*/
+#city {
+   width: 80%;
+    padding :5px 0;
+    margin: 5px 0;
+    
+}
+#state{
+    width: 80%;
+    padding :5px 0;
+    margin: 5px 0;
+}
+#area{
+     width: 80%;
+    padding :5px 0;
+    margin: 5px 0;
+}
+#login{
+    left: 20px;
+}
+#register{
+    left: 450px;
+}
+.form-box a{
+    position: relative;
+    top: 360px;
+    left: 35px;
+    width: 85%;
+    padding:10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 30px 30px;
+    /*background: linear-gradient(to right,#ff105f,#ffad06);*/
+    border: 0;
+    text-decoration: none;
+    border-radius: 30px;
+        
+}

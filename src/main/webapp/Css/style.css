@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to top,rgba(0,0,0,0.3)50%,rgba(0,0,0,0.3)50%), url('../images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    height: 150px;
+    width: 130px;
+    position: absolute;
+    left: 30px;
+    top:30px;
+}
+.links{
+    text-align: center;
+    background-color: black;
+    opacity: 0.6;
+    line-height: 20px;
+}
+.links .fa{
+    margin-right: 3px;
+    color: white;
+} 
+.links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    margin: 12px;
+    position: relative;
+}
+.links ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    /*font-family: Luminari, fantasy;*/
+    font-weight: 100;
+}
+
+
+/*.links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}*/
+.links ul li :hover{
+    color: orangered;
+}
+.sub-links{
+    display: none;
+}
+.links ul li:hover .sub-links{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+    margin-bottom: 15px;
+}
+.links ul li:hover .sub-links ul li{
+    display: block;
+    width: 100px;
+    padding: 10px;
+    border-bottom: 2px orange solid;
+    background-color: black;
+   
+    border-radius: 2px;
+    text-align: center;
+}
+.links ul li:hover .sub-links ul li a:hover{
+    color: limegreen;
+}
+.links ul li:hover .sub-links ul li:last-child{
+    border-bottom: none;
+}
+.heading{
+    margin-top: 70px;
+    text-align: center;
+    color: white;
+    /*font-family: Luminari, fantasy;*/
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+.images{
+    width: 70%;
+    height: 390px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-15%);
+    background-image: url('../images/image10.jpg');
+    background-size: 100% 100%; 
+    box-shadow: 1px 2px 5px 8px aliceblue;
+    animation-name: slide;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+@keyframes slide{
+    0%{ background-image: url('../images/image10.jpg');}
+    
+    30%{ background-image: url('../images/image11.jpg');}
+    
+    70%{ background-image: url('../images/image2.jfif');}
+}
+
+
+/*  ONLINE SERVICES */
+
+.services{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+h2{
+    font-size: 36px;
+    font-weight: 600px;
+    color: orange;
+}
+.row1{
+    margin-top: 5%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.service-colm{
+    flex-basis: 31%;
+    background: yellow;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 6px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    
+}
+.service-colm:hover{
+    box-shadow: 1px 2px 20px 5px blue;
+    background-color: orange;
+}
+h3:hover{
+    color: red;
+}
+.footer{
+    text-align: center;
+}
+.about a:hover{
+    color: orange;
+}
